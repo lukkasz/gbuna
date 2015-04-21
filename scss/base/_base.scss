@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $color-body;
+}
+
+a {
+	&:link {
+		color: $color-link-default;
+		text-decoration: none;
+	}
+
+	&:visited,
+	&:hover {
+		color: $color-link-default;
+	}
+}

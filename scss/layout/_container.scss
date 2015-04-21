@@ -1,0 +1,14 @@
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-left: 2.380952381%;
+	padding-right: 2.380952381%;
+	@media #{brk-narrow} {
+		padding-left: 1.373626374%;
+		padding-right: 1.373626374%;
+	}
+	@media #{$brk-wide} {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+}

@@ -1,0 +1,29 @@
+// Descriptive color variable
+
+$celeste			: #D9DBD1;
+$sisal 				: #D4C9BD;
+$blue-dianne 	: #235B51;
+
+
+// Functional color variable: ;	
+
+$color-prim						: $sisal;
+$color-sec						: $celeste;
+
+$color-border-light		: $celeste;
+$color-border-dark		: $sisal;
+
+$color-text						: $blue-dianne;
+$color-link-default		: $blue-dianne;
+
+$color-body						: $celeste;
+
+
+// Font-stacks
+
+$stack-serif: 'Playfair Display', serif; 
+
+// Media query breakpointes
+
+$brk-narrow	: '(min-width: 768px)';
+$brk-wide		: '(min-width: 960px)';

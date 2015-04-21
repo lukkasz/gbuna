@@ -1,0 +1,11 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+### Sass ###
+.sass-cache
+*.css.map
